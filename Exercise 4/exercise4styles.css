@@ -5,3 +5,23 @@ h1 {
     padding: 10px;
     margin: 10px;
 }
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+caption{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.oddrow {
+    background-color: powderblue;
+}
+
+.evenrow {
+    background-color: papayawhip;
+}
