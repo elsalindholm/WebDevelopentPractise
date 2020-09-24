@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 7</title>
+
+    <link rel="stylesheet" href="exercise7.css">
+  </head>
+
+  <body>
+    <h1 id="heading1" class="style1">Exercise 7</h1>
+
+    <script>
+      function myFunction() {
+        var style1 = "style1";
+        var style2 = "style2";
+        var heading1 = document.getElementById("heading1");
+        var cName;
+        cName = heading1.className;
+        if (cName == style1) {
+          heading1.className = style2;
+        }
+        else if (cName == style2) {
+          heading1.className = style1;
+        }
+      }
+    </script>
+
+    <button type="button" onclick="myFunction()">See what happens by pressing this button!</button>
+
+  </body>
+
+</html>

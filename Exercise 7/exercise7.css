@@ -1,0 +1,15 @@
+.style1 {
+  border: plum 5px solid;
+  background-color: rebeccapurple;
+  color: darkgoldenrod;
+}
+
+.style2 {
+  border: darkgreen 10px dashed;
+  background-color: darkkhaki;
+  color: grey;
+}
+
+body {
+  background-color: grey;
+}
