@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="eng-uk">
+  
+  <head>
+    
+    <title>Exercise 9</title>
+
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+
+  </head>
+  
+  <body id="body" class="style1body">
+    <div>
+      <h1>Hello Matty!</h1>
+      <p>Can't believe how long it's been since we went out for a burgy..</p>
+    </div>
+
+    <script>
+      function changeToStyle1() {
+        document.getElementById("body").className = "style1body";
+        document.getElementById("button1").className = "style1button";
+        document.getElementById("button2").className = "style1button";
+      }
+
+      function changeToStyle2() {
+        document.getElementById("body").className = "style2body";
+        document.getElementById("button1").className = "style2button";
+        document.getElementById("button2").className = "style2button";
+      }
+    </script>
+
+    <button type="button" id="button1" class="style1button" onclick="changeToStyle1()">Button 1</button>
+    <button type="button" id="button2" class="style1button" onclick="changeToStyle2()">Button 2</button>
+
+  </body>
+
+</html>

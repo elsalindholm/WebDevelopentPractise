@@ -1,0 +1,14 @@
+.style1body {
+  color:burlywood;
+  background-color: blanchedalmond;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.style1button {
+  width: 100px;
+  height: 35px;
+  border-style: dotted;
+  color: burlywood;
+  background-color:brown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

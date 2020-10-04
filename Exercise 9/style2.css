@@ -1,0 +1,14 @@
+.style2body {
+  color: teal;
+  background-color:paleturquoise;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.style2button {
+  width: 100px;
+  height: 35px;
+  border-style: solid;
+  color: teal;
+  background-color: paleturquoise;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
