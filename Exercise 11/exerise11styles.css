@@ -1,0 +1,69 @@
+.boxHolder {
+  width: 850px;
+  height: 500px;
+}
+
+.leftBox {
+  width: 150px;
+  height: 500px;
+  border: solid 2px black;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 6;
+}
+
+.rightBox {
+  width: 700px;
+  height: 460px;
+  border: solid 2px black;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  position: absolute;
+  top: 0%;
+  left: 173px;
+}
+
+.rightBoxTextBox {
+  border: solid 2px black;
+  width: 652px;
+  height: 412px;
+  padding: 20px;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+img {
+  float: right;
+}
+
+/* button styles */
+
+#Apples {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+#Bananas {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+#Grapes {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+}
