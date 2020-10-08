@@ -1,67 +1,103 @@
 .boxHolder {
   width: 850px;
   height: 500px;
+  box-sizing: border-box;
+  /*border: solid red 1px;*/
 }
 
 .leftBox {
-  width: 150px;
-  height: 500px;
+  width: 17.6%;
+  height: 100%;
+  float: left;
+  
+  box-sizing: border-box;
   border: solid 2px black;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  position: absolute;
-  top: 0%;
-  left: 0%;
+}
+
+.buttonHolder {
+  box-sizing: border-box;
+  height: 50%;
+  width: 100%;
+  /*border: red solid 1px;*/
+  position: relative;
+  top: 25%;
+  
   text-align: center;
   vertical-align: middle;
-  line-height: 6;
+  line-height: 4.5;
 }
 
-.rightBox {
-  width: 700px;
-  height: 460px;
+.rightBoxParent {
+  width: 82.4%;
+  height: 100%;
+  float: right;
+  box-sizing: border-box;
   border: solid 2px black;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 20px;
-  position: absolute;
-  top: 0%;
-  left: 173px;
 }
 
-.rightBoxTextBox {
+.rightBoxChild {
   border: solid 2px black;
-  width: 652px;
-  height: 412px;
-  padding: 20px;
-  text-align: left;
+  box-sizing: border-box;
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.childRightInner {
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  /*border: solid red 1px;*/
+  float: left;
+}
+
+.textHolder {
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  /*border: red solid 1px;*/
+  position: relative;
+  top: 25%;
+  padding-top: 10%;
+}
+
+p {
+  text-align: center;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-img {
+.childLeftInner {
+  height: 100%;
+  width: 50%;
+  box-sizing: border-box;
+  /*border: solid red 1px;*/
   float: right;
 }
 
+.imageHolder {
+  height: 50%;
+  width: 100%;
+  box-sizing: border-box;
+  /*border: solid red 1px;*/
+  position: relative;
+  top: 25%;
+  object-fit: cover;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 194.6px;
+  max-width: 275.9px;
+}
 /* button styles */
 
-#Apples {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  border: none;
-  background-color: transparent;
-}
-
-#Bananas {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  border: none;
-  background-color: transparent;
-}
-
-#Grapes {
+.fruitButton {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
   border: none;

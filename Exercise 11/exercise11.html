@@ -4,27 +4,34 @@
     <title>Exercise 11</title>
 
     <link rel="stylesheet" href="exerise11styles.css">
+    <script src="exercise11.js"></script>
   </head>
 
   <body>
     <div class="boxHolder">
       <div class="leftBox">
-        <dl>
-          <dt><button type="button" id="Apples" class="applesButton">Apples</button></dt>
-          <dt><button type="button" id="Bananas" class="bananasButton">Bananas</button></dt>
-          <dt><button type="button" id="Grapes" class="grapesButton">Grapes</button></dt>
-        </dl>
-
+        <div class="buttonHolder">
+          <dl>
+            <dt><button type="button" id="Apples" class="fruitButton" onclick="changeToApples()">Apples</button></dt>
+            <dt><button type="button" id="Bananas" class="fruitButton" onclick="changeToBananas()">Bananas</button></dt>
+            <dt><button type="button" id="Grapes" class="fruitButton" onclick="changeToGrapes()">Grapes</button></dt>
+          </dl>
+        </div>
       </div>
 
-      <div class="rightBox">
-        <div class="rightBoxTextBox">
-
-          <p>An apple a day</p>
-          <p>keeps the doctor away.</p>
-
-          <img src="../Exercise 11/images/appleTree.jpg" alt="Apple tree" style="height:70%">
-        </div>
+      <div class="rightBoxParent">
+        <div class="rightBoxChild">
+          <div class="childRightInner">
+              <div class="textHolder">
+                <p id="paragraph" class="paragraph">An apple a day keeps the doctor away.</p>
+              </div>
+          </div>
+          <div class="childLeftInner">
+              <div class="imageHolder">
+                <img src="../Exercise 11/images/appleTree.jpg" alt="Apple tree" id="image" class="image">
+              </div>
+          </div>
+          </div>
 
       </div>
     </div>
