@@ -1,4 +1,4 @@
-function changeToApples (){
+function changeToApples () {
   document.getElementById("paragraph").innerHTML = "An apple a day keeps the doctor away";
   document.getElementById("image").src = "./images/appleTree.jpg";
 }

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .boxHolder {
   width: 850px;
   height: 500px;
