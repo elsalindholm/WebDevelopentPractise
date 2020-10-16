@@ -1,22 +1,12 @@
 var clickCount = 0;
+var divisibleByThree = false;
+var divisibleByFive = false;
 
-//function to increase counter by 1//
 function incClickCount(val) {
   clickCount += val;
+  checkNum();
   updateCounter();
 }
-
-/*function to increase counter by 3//
-function increaseByThree() {
-  clickCount += 3;
-  updateCounter();
-}*/
-
-/*function to increase counter by 5//
-function increaseByFive() {
-  clickCount += 5;
-  updateCounter();
-}*/
 
 //function to reset counter to 0//
 function resetCounter() {
@@ -25,5 +15,43 @@ function resetCounter() {
 }
 
 function updateCounter() {
-  document.getElementById("counter").innerHTML = "Click count: "+ clickCount;
+  var message = "Click count: " + clickCount;
+
+  if (divisibleByThree == true) {
+    message += " fizz";
+  }
+  if (divisibleByFive == true) {
+    message += " buzz"
+  }
+  document.getElementById("counter").innerHTML = message;
 }
+
+function checkNum() {
+  divisibleByThree = dividesEvenly(clickCount, 3);
+  divisibleByFive = dividesEvenly(clickCount, 5);
+}
+
+
+function dividesEvenly(num1, num2) {
+  if (num1 % num2 == 0) {
+    return true;
+  } 
+  return false;
+}
+
+
+
+
+
+/*function checkNum() {
+  if (clickCount % 3 == 0) {
+    divisibleByThree = true;
+  } else {
+    divisibleByThree = false;
+  }
+  if (clickCount % 5 == 0) {
+    divisibleByFive = true;
+  } else {
+    divisibleByFive = false;
+  }
+}*/
