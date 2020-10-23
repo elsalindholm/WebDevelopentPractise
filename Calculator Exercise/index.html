@@ -20,66 +20,67 @@
         </div>
         <div class="buttonHolder">
           <div class="topRowText">
-            <input type="text" class="calculatorScreen" value="" disabled />
-
+            <br>
+            <br>
+            <p id="calculatorScreen"></p>
           </div>
           <div class="numberRow">
             <div class="numberRowChild">
-              <button type="button" class="button">1</button>
+              <button type="button" class="button" onclick="inputNumber(1)">1</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">2</button>
+              <button type="button" class="button" onclick="inputNumber(2)">2</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">3</button>
+              <button type="button" class="button" onclick="inputNumber(3)">3</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">/</button>
-            </div>
-
-          </div>
-          <div class="numberRow">
-            <div class="numberRowChild">
-              <button type="button" class="button">4</button>
-            </div>
-            <div class="numberRowChild">
-              <button type="button" class="button">5</button>
-            </div>
-            <div class="numberRowChild">
-              <button type="button" class="button">6</button>
-            </div>
-            <div class="numberRowChild">
-              <button type="button" class="button">x</button>
+              <button type="button" class="button" onclick="inputOperator('/')">/</button>
             </div>
 
           </div>
           <div class="numberRow">
             <div class="numberRowChild">
-              <button type="button" class="button">7</button>
+              <button type="button" class="button" onclick="inputNumber(4)">4</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">8</button>
+              <button type="button" class="button" onclick="inputNumber(5)">5</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">9</button>
+              <button type="button" class="button" onclick="inputNumber(6)">6</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">-</button>
+              <button type="button" class="button" onclick="inputOperator('x')">x</button>
             </div>
 
           </div>
           <div class="numberRow">
             <div class="numberRowChild">
-              <button type="button" class="button">CLEAR</button>
+              <button type="button" class="button" onclick="inputNumber(7)">7</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">0</button>
+              <button type="button" class="button" onclick="inputNumber(8)">8</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">=</button>
+              <button type="button" class="button" onclick="inputNumber(9)">9</button>
             </div>
             <div class="numberRowChild">
-              <button type="button" class="button">+</button>
+              <button type="button" class="button" onclick="inputOperator('-')">-</button>
+            </div>
+
+          </div>
+          <div class="numberRow">
+            <div class="numberRowChild">
+              <button type="button" class="button" onclick="clearDisplay()">CLEAR</button>
+            </div>
+            <div class="numberRowChild">
+              <button type="button" class="button" onclick="inputNumber(0)">0</button>
+            </div>
+            <div class="numberRowChild">
+              <button type="button" class="button" onclick="equals()">=</button>
+            </div>
+            <div class="numberRowChild">
+              <button type="button" class="button" onclick="inputOperator('+')">+</button>
             </div>
 
           </div>

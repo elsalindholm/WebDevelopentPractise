@@ -9,15 +9,6 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.calculatorScreen {
-  height: 100%;
-  width: 100%;
-  font-size: x-large;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: slategray;
-  color: whitesmoke;
-}
-
 .pageHolder {
   height: 100vh;
   width: 100vw;
